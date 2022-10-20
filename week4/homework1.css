@@ -15,7 +15,7 @@ p {
     flex: 1;
 }
 
-#leftdiv {
+#left {
     margin-top: 150px;
 }
 
@@ -30,4 +30,9 @@ p {
     border-right: 5px solid black;
 }
 
-#rightdiv {}
+#right {
+    background-image: url(images/pic\ homeworkno.1.png);
+    margin-bottom: -10%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
