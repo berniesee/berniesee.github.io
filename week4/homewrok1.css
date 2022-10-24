@@ -1,0 +1,41 @@
+h1 {
+    font-size: 75px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.container {
+    display: flex;
+    font-family: 'Secular One', sans-serif;
+}
+
+.container div {
+    flex: 1;
+}
+
+#box1 {
+    margin-top: 110px;
+    margin-bottom: 90px;
+}
+
+#box2 {
+    left: 0;
+    margin: auto;
+    text-align: center;
+    width: 700px;
+    margin-left: -90px;
+    border-bottom: 7px solid black;
+    border-top: 7px solid black;
+    border-right: 7px solid black;
+
+}
+
+#box3 {
+    background-image: url(img/hw1pic.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
