@@ -1,9 +1,9 @@
 h1 {
-    font-size: 75px;
+    font-size: 80px;
 }
 
 p {
-    font-size: 20px;
+    font-size: 22px;
 }
 
 .container {
@@ -16,8 +16,8 @@ p {
 }
 
 #box1 {
-    margin-top: 110px;
-    margin-bottom: 90px;
+    margin-top: 120px;
+    margin-bottom: 100px;
 }
 
 #box2 {
@@ -25,17 +25,19 @@ p {
     margin: auto;
     text-align: center;
     width: 700px;
-    margin-left: -90px;
-    border-bottom: 7px solid black;
-    border-top: 7px solid black;
-    border-right: 7px solid black;
-
+    margin-left: -100px;
+    border-bottom: 5px solid black;
+    border-top: 5px solid black;
+    border-right: 5px solid black;
 }
 
 #box3 {
-    background-image: url(img/hw1pic.jpg);
+    background-image: url(../img/hw1pic.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+
+
+
 
 }
