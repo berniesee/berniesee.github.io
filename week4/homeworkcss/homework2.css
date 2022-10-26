@@ -1,0 +1,82 @@
+h1 {
+    font-size: 50px;
+    font-family: 'Questrial', sans-serif;
+}
+
+h2 {
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.container {
+    display: flex;
+}
+
+.container div {
+    flex: 1;
+}
+
+.containertext {
+    display: flex;
+}
+
+.containertext {
+    flex: 1;
+}
+
+#box1 {
+    border: 8px solid black;
+    border-top: none;
+    text-align: center;
+    padding: 2px;
+    margin-left: 450px;
+    margin-right: 450px;
+    margin-bottom: 100px;
+}
+
+#img1 {
+    background-image: url(../img/hw2pc1.jpg);
+    background-repeat: no-repeat;
+    background-position: 140px;
+    background-size: contain;
+    height: 170px;
+    margin: 10;
+    margin-left: 30px;
+}
+
+#img2 {
+    background-image: url(../img/hw2pic2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-left: 40px;
+    height: 170px;
+    margin: 10;
+}
+
+#img3 {
+    background-image: url(../img/hw2pic3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-right: 80px;
+    height: 170px;
+    margin: 10;
+}
+
+#word1 {
+    font-size: medium;
+    text-align: center;
+    margin-left: 200px;
+}
+
+#word2 {
+    font-size: medium;
+    text-align: center;
+    margin-left: 230px;
+}
+
+#word3 {
+    font-size: medium;
+    text-align: center;
+    margin-left: 230px;
+}
