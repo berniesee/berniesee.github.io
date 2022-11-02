@@ -34,7 +34,7 @@ h2 {
 }
 
 #img1 {
-    background-image: url(../img/hw2pc1.jpg);
+    background-image: url(../img/blackwomen.jpg);
     background-repeat: no-repeat;
     background-position: 140px;
     background-size: contain;
@@ -44,7 +44,7 @@ h2 {
 }
 
 #img2 {
-    background-image: url(../img/hw2pic2.jpg);
+    background-image: url(../img/whitewomen.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -54,7 +54,7 @@ h2 {
 }
 
 #img3 {
-    background-image: url(../img/hw2pic3.jpg);
+    background-image: url(../img/man.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;

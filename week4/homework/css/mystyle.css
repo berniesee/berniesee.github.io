@@ -9,7 +9,7 @@
 
 
 #box2 {
-    background-image: url('img/webpic.webp');
+    background-image: url('../img/landscape.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     height: 400px;
@@ -21,7 +21,7 @@
 
 #box3 {
     background-size: 10%;
-    background-image: url('img/webpic.webp');
+    background-image: url('../img/landscape.jpg');
     height: 400px;
     margin: 30px;
     padding: 30px;
