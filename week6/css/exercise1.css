@@ -36,7 +36,7 @@
     padding-top: 240px;
     padding-bottom: 240px;
     text-align: center;
-    color: white;
+    color: black;
 }
 
 .icon {
@@ -59,12 +59,13 @@
 }
 
 .story {
-    border: 2px dashed black;
+    border: 2px dashed white;
     text-align: left;
     width: 350px;
     position: absolute;
     right: 40px;
     bottom: 40px;
+    color: white;
 }
 
 .story h2 {
