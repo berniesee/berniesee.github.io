@@ -1,0 +1,94 @@
+.container {
+    position: relative;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: right;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.menu a {
+    color: gray;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    color: black;
+}
+
+.content {
+    background-image: url(../img/bluesky.jpg);
+    background-size: cover;
+    padding-top: 240px;
+    padding-bottom: 240px;
+    text-align: center;
+    color: white;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+}
+
+.guide {
+    margin-right: 20px;
+}
+
+.news {
+    margin-left: 20px;
+}
+
+.author {
+    position: absolute;
+    left: 40px;
+    bottom: 40px;
+}
+
+.story {
+    border: 2px dashed black;
+    text-align: left;
+    width: 350px;
+    position: absolute;
+    right: 40px;
+    bottom: 40px;
+}
+
+.story h2 {
+    color: brown;
+    margin-bottom: 0;
+    margin-left: 20px;
+}
+
+.story p {
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+#iconsize1 {
+    position: relative;
+    top: 10px;
+}
+
+#iconsize2 {
+    position: relative;
+    top: 10px;
+}
+
+#iconsize3 {
+    position: relative;
+    top: 10px;
+}
