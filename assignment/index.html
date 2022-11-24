@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Personal Website</title>
+    <link rel="icon" type="image/x-icon" href="img/smileicon.png">
+    <link href="css/homepage.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/c3573e9c36.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Gentium+Book+Basic&family=Lato:wght@700&family=Orbitron:wght@500&family=Poiret+One&family=Poppins:wght@900&family=Roboto:wght@300&family=Rubik:wght@300&family=Secular+One&family=Ubuntu:wght@700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <!-- overlay -->
+        <div id="overlay">
+            <a id="closebutton" href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+                <a href="homepage.html">Home</a>
+                <a href="aboutme.html">Hobby</a>
+                <a href="myfavourite.html">My Favourite Food</a>
+                <a href="mytravel.html">My Favourite Movie</a>
+                <a id="contactbox2" href="contact.html">Contact</a>
+            </div>
+        </div>
+        <!-- headerpart -->
+        <div class="topnav" id="myTopnav">
+            <div class="lefttopnav">
+                <img id="kmlogo" src="img/bernielogo.png" alt="logo" height="65px">
+                <a href="homepage.html">Bernie See Jun Yu</a>
+            </div>
+            <div class="middletopnav">
+                <a href="homepage.html">Home</a>
+                <div class="dropdown">
+                    <a href="aboutme.html">Hobbies</a>
+                    <div class="dropdown-content">
+
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <a href="myfavourite.html">My Favourite Food</a>
+                    <div class="dropdown-content">
+
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <a href="mytravel.html">My Favourite Movie</a>
+                    <div class="dropdown-content">
+                    </div>
+                </div>
+            </div>
+            <div class="righttopnav">
+                <a id="contactbox" href="contact.html">Contact</a>
+                <a id="hiddenbar" href="javascript:void(0);" class="icon" onclick="openNav()">
+                    <i id="icon" class="fa-solid fa-bars"></i>
+                </a>
+            </div>
+        </div>
+
+        <div class="partoneintroduction">
+            <div class="partoneintroductionleft">
+                <h2>I am Bernie See Jun Yu</h2>
+                <p>
+                    I'm so glad fate brought you to my page.
+                    <br><br>
+                    I am a student of software engineering at New Era<br>
+                    University. Now I am learning the theory and practice of<br>
+                    computing and IT.
+                </p>
+            </div>
+            <div class="partoneintroductionright">
+                <img id="kienmingpic" src="img/ownphoto.jpg" alt="picture" height="120px" width="120px">
+            </div>
+        </div>
+
+        <script>
+            function openNav() {
+                document.getElementById("overlay").style.width = "100%";
+            }
+
+            function closeNav() {
+                document.getElementById("overlay").style.width = "0%";
+            }
+        </script>
+</body>
+
+</html>
